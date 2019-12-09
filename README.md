@@ -14,3 +14,8 @@ cmake .
 make
 make install
 ```
+
+Example
+-------
+Check out `minecraft.service` for an example of a systemd unit file that uses
+this wrapper correctly.

@@ -1,0 +1,10 @@
+[Unit]
+Description=Minecraft server
+
+[Service]
+WorkingDirectory=/home/minecraft/server
+ExecStart=/usr/local/bin/mcwrapper /usr/bin/java -Xmx10G -jar server.jar
+KillMode=process
+
+[Install]
+WantedBy=default.target
